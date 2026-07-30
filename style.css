@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+*{
+    box-sizing:border-box;
+    font-family:"Lalezar",sans-serif;
+}
+
+
+body{
+
+    margin:0;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+
+    background:
+    radial-gradient(circle at top,#3b1d5a,transparent 35%),
+    radial-gradient(circle at bottom,#12385a,transparent 35%),
+    linear-gradient(135deg,#050505,#101010);
+
+
+    color:white;
+
+}
+
+
+
+/* پنل اصلی */
+
+.app{
+
+    width:min(950px,92%);
+
+    padding:40px;
+
+
+    background:
+
+    rgba(255,255,255,.12);
+
+
+    backdrop-filter:blur(30px);
+
+
+    border-radius:45px;
+
+
+    border:
+
+    1px solid rgba(255,255,255,.2);
+
+
+    box-shadow:
+
+    0 40px 100px rgba(0,0,0,.8);
+
+}
+
+
+
+/* عنوان */
+
+h1{
+
+    text-align:center;
+
+    color:#ffd700;
+
+    font-size:50px;
+
+    text-shadow:
+
+    0 0 25px rgba(255,215,0,.5);
+
+}
+
+
+
+/* جستجو */
+
+.search-box{
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+
+
+.search{
+
+    width:80%;
+
+    padding:15px 25px;
+
+
+    color:white;
+
+
+    background:
+
+    rgba(255,255,255,.1);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.2);
+
+
+    border-radius:25px;
+
+
+    outline:none;
+
+
+    font-size:18px;
+
+}
+
+
+
+/* دسته بندی ها */
+
+.categories{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:12px;
+
+    margin:25px 0;
+
+}
+
+
+
+button{
+
+
+    padding:12px 22px;
+
+
+    color:white;
+
+
+    cursor:pointer;
+
+
+    border-radius:20px;
+
+
+    border:
+
+    1px solid rgba(255,255,255,.2);
+
+
+    background:
+
+    rgba(255,255,255,.12);
+
+
+    transition:.3s;
+
+
+    font-size:17px;
+
+}
+
+
+
+button:hover{
+
+    background:#ffd700;
+
+    color:#111;
+
+    transform:translateY(-4px);
+
+}
+
+
+
+/* پلیر */
+
+.player{
+
+    text-align:center;
+
+
+    padding:30px;
+
+
+    margin-top:20px;
+
+
+    border-radius:35px;
+
+
+    background:
+
+    rgba(0,0,0,.25);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+}
+
+
+
+#title{
+
+    color:#fff;
+
+}
+
+
+
+#cover{
+
+    width:250px;
+
+    height:250px;
+
+
+    object-fit:cover;
+
+
+    border-radius:30px;
+
+
+    box-shadow:
+
+    0 20px 50px #000;
+
+
+    margin:20px;
+
+}
+
+
+
+/* موزیک */
+
+audio{
+
+    width:90%;
+
+}
+
+
+
+/* لیست آهنگ ها */
+
+#songs{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:15px;
+
+}
+
+
+
+.song{
+
+    width:220px;
+
+    padding:15px;
+
+
+    border-radius:25px;
+
+
+    background:
+
+    rgba(255,255,255,.1);
+
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+
+    cursor:pointer;
+
+
+    transition:.3s;
+
+}
+
+
+
+.song:hover{
+
+    transform:translateY(-5px);
+
+    background:
+
+    rgba(255,255,255,.2);
+
+}
+
+
+
+/* موبایل */
+
+@media(max-width:600px){
+
+    .app{
+
+        padding:20px;
+
+    }
+
+
+    h1{
+
+        font-size:35px;
+
+    }
+
+
+    #cover{
+
+        width:200px;
+
+        height:200px;
+
+    }
+
+}

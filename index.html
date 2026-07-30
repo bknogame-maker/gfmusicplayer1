@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Gamer Friend Music</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+<div class="app">
+
+
+<h1>
+<i class="fa-solid fa-music"></i>
+Gamer Friend Music
+</h1>
+
+
+
+<div class="search-box">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+<input 
+id="search"
+class="search"
+placeholder="جستجوی آهنگ..."
+oninput="searchSongs()">
+
+</div>
+
+
+
+<div class="categories">
+
+
+<button onclick="showCategory('gaming')">
+<i class="fa-solid fa-gamepad"></i>
+Gaming
+</button>
+
+
+<button onclick="showCategory('epic')">
+<i class="fa-solid fa-bolt"></i>
+Epic / Battle
+</button>
+
+
+<button onclick="showCategory('phonk')">
+<i class="fa-solid fa-bolt-lightning"></i>
+Phonk
+</button>
+
+
+<button onclick="showCategory('dreamcore')">
+<i class="fa-solid fa-moon"></i>
+Dreamcore
+</button>
+
+
+<button onclick="showCategory('old')">
+<i class="fa-solid fa-compact-disc"></i>
+OLD
+</button>
+
+
+<button onclick="showCategory('rock')">
+<i class="fa-solid fa-guitar"></i>
+Rock
+</button>
+
+
+<button onclick="showCategory('rap')">
+<i class="fa-solid fa-microphone"></i>
+Rap
+</button>
+
+
+<button onclick="showCategory('instrumental')">
+<i class="fa-solid fa-music"></i>
+Instrumental
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="player">
+
+
+<h2 id="title">
+هیچ آهنگی پخش نمی‌شود
+</h2>
+
+
+<img id="cover" src="covers/default.jpg">
+
+
+<audio id="audio" controls>
+
+</audio>
+
+
+</div>
+
+
+
+
+
+<h2>
+
+<i class="fa-solid fa-list"></i>
+
+آهنگ‌ها
+
+</h2>
+
+
+
+<div id="songs">
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
