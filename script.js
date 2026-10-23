@@ -55,6 +55,13 @@ cover:"covers/drc2.jpg"
 },
 
 {
+name:"Hide-Dorian Concept+SR",
+category:"dreamcore",
+file:"music/dreamcore/hidesr.mp3",
+cover:"covers/drc2.jpg"
+},
+
+{
 name:"Hayde-Shabe Eshgh",
 category:"old",
 file:"music/old/song1.mp3",
@@ -68,6 +75,19 @@ file:"music/old/aroosakhayde.mp3",
 cover:"covers/hayde.jpg"
 },
 
+{
+name:"Nameh-Habib+SR",
+category:"old",
+file:"music/old/namehhabib.mp3",
+cover:"covers/habib.jpg"
+},
+
+{
+name:"Sedaye Faryad-Habib+SR",
+category:"old",
+file:"music/old/sedayefaryadhabib.mp3",
+cover:"covers/habib.jpg"
+},
 
 {
 name:"Khalse x Vinak x Pishro x Poori x Chvrsi x Tohi - Mage Shoukhi Darim",
